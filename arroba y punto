@@ -8,7 +8,7 @@ punto=nombredeusuario.count('.')
 
 print(arroba,punto)
 
-while(arroba!=1 or nombredeusuario.rfind('@')==(len(nombredeusuario)-1) or nombredeusuario.find('@')==0 or punto!=1):
+while((arroba!=1 or nombredeusuario.rfind('@')==(len(nombredeusuario)-1) or nombredeusuario.find('@')==0) and (punto!=1)):
     print("Usuario incorrecto")
     nombredeusuario=input("Introduce el nombre de usuario/email de la plataforma: ")
 
