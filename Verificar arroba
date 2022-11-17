@@ -1,0 +1,11 @@
+print ("---------------------Prueba para introducir un nombre de usuario-------------------")
+
+nombredeusuario=input("Introduce el nombre de usuario/email de la plataforma: ")
+
+arroba=nombredeusuario.count('@')
+
+if (arroba!=1 or nombredeusuario.rfind('@')==(len(nombredeusuario)-1) or nombredeusuario.find('@')==0):
+  print("Usuario incorrecto")
+
+else:
+  print("Usuario correcto")
