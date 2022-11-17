@@ -1,1 +1,8 @@
-print "prueba"
+print ("---------------------Prueba para introducir un nombre de usuario-------------------")
+
+nombredeusuario=input("Introduce el nombre de usuario/email de la plataforma: ")
+
+while nombredeusuario.find(@):
+  print("El nombre de usuario es correcto")
+else:
+  print("El nombre de usuario es incorrecto")
